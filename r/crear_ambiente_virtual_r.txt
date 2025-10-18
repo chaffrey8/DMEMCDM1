@@ -1,0 +1,17 @@
+# Instalar librería de ambientes virtuales en R
+install.packages('renv')
+
+# Inicializar el ambiente virtual, solo la primera vez
+renv::init()
+
+# Activar el ambiente virtual
+renv::activate()
+
+# Instalar librerías en el ambiente virtual
+renv::install(c('readr','dplyr'))
+
+# Snapshot?
+renv::snapshot()
+
+# Desactivar el ambiente virtual
+renv::deactivate()
