@@ -1,0 +1,22 @@
+# Crear ambiente virtual
+# 1. Desplazarse hasta el directorio donde se quiere crear el ambiente virtual
+# 2. Una vez en el directorio desesado ejecutar el comando
+#    python3 -m venv env
+
+# Activar ambiente virtual
+# 1. Desplazarse hasta el directorio donde se encuentra instalado el ambiente virtual
+# 2. En windows ejecutar el comando
+#     env\Scripts\activate
+# 2. En linux o macos ejecutar el comando
+#     source env/bin/activate
+
+# Agregar ambiente virtual al kernel de jupyter
+# 1. instalar la librería si no está
+#    python3 -m pip instal ipykernel
+# 2. agregar ambiente al kernel
+#    python3 -m ipykernel install --user --name=env --display-name "Python Diplomado"
+
+# Desactivar el ambiente virtual
+# Ejecutar el comando
+#     deactivate
+
